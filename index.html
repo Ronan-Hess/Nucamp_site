@@ -32,9 +32,9 @@
                     <h1>NuCamp</h1>
                     <h2>a better way to camp</h2>
                 </div>
-                <div class="col-4-md col-2-xl">
+                <div class="col-md-4 col-xl-2 mt-4">
                     <!--Button that takes you to the reserve card lower on the page-->
-                    <a href="#reserveForm"><button class="btn btn-lg btn-info mt-4">Reserve Campsite</button></a>
+                    <a href="#reserveForm" role="button" class="btn btn-lg btn-info" data-toggle="tooltip" data-html="true" data-placement="bottom" title="Or call us at<br /><strong>1-206-555-1234</strong>">Reserve Campsite</a>
                 </div>
             </div>
         </div>
@@ -178,8 +178,13 @@
       <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
       <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
       <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-      <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>  
-
+      <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+      
+      <script>
+          $(function () {
+                $('[data-toggle="tooltip"]').tooltip()              
+          })
+      </script>
 </body>
 
 </html>
