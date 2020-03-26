@@ -7,7 +7,7 @@ h1, h2, h3 {
 }
 
 h2 {
-    color: $color-primary;
+    color: #3046C5;
 }
 
 header h2 {
@@ -23,7 +23,7 @@ header h2 {
     margin: 0;
     padding: 30px;
     background-image: linear-gradient(to right, #5637DD,        
-    $color-primary, #60106B);
+    #3046C5, #60106B);
     color: white;
 
 }
